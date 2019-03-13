@@ -11,11 +11,13 @@ class CharacterListView extends React.Component {
 
   componentDidMount() {
     // call our action
+    
   }
 
   render() {
     if (this.props.fetching) {
       // return something here to indicate that you are fetching data
+
     }
     return (
       <div className="CharactersList_wrapper">
